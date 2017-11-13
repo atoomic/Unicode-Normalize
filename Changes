@@ -1,5 +1,11 @@
 Revision history for Perl extension Unicode::Normalize.
 
+1.25  Wed Dec 16 03:05:57 UTC 2015
+    - Fix Normalize.xs to work on releases earlier than 5.8.  The problem was
+      introduced in this module's version 1.24
+    - Go back to shipping pure perl version as well as XS, as was done up
+      through release 1.17
+
 1.24  Sun Nov 29 05:48:44 UTC 2015
     - Updated to use most recent GNU license file.
       ( https://rt.cpan.org/Public/Bug/Display.html?id=108003 )
