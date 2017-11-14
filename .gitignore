@@ -11,3 +11,4 @@ unfcmb.h
 unfcmp.h
 unfcpt.h
 unfexc.h
+*.h
